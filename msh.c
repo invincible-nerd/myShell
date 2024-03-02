@@ -73,7 +73,7 @@ int msh_exit(char **args)
 
 char *msh_read_line(void){
     int bufsize=MSH_RL_BUFSIZE;
-    int postion=0;
+    int position=0;
     char *buffer=malloc(sizeof(char)*bufsize);
     int c;
 
